@@ -1,0 +1,11 @@
+.catalog-header {
+    background-image: url(images\index-background.jpg);
+}
+
+.navigation-item{
+    position: absolute;
+left: 19.92;
+right: 47.58;
+top: 0;
+bottom: 5.71;
+}
