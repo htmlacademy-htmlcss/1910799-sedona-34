@@ -8,7 +8,7 @@
 
 <body>
   <header class="page-header">
-    <a class="logo-menu"><img src="logo.png"></a>
+    <a class="logo-menu"><img src="images/logo.png"></a>
     <nav class="navigation">
       <ul class="navigation-list">
         <li class="navigation-item">
@@ -40,13 +40,11 @@
 
   <main class="catalog-index">
     <section class="catalog-header">
-      <p>
       <h1>Гостиницы Седоны</h1>
-      </p>
-      <li><img src="#"><img>
-        <h6>Гостиницы</h6>
-      </li>
+      <img src="#"><img>
+        <p>Гостиницы</p>
       <p>Инфраструктура</p>
+      <ul>
       <li class="type-box">
         <input type="checkbox" checked>Бассейн
       </li>
@@ -56,24 +54,30 @@
       <li>
         <input type="checkbox">WI-FI
       </li>
-
+</ul>
       <p>Тип жилья</p>
+      <ul><label>
       <li class="type-box">
-        <input type="radio" checked>Гостиница
+        <input type="radio" checked>Гостиница</label>
       </li>
-      <li>
-        <input type="radio">Мотель
+      <li><label>
+        <input type="radio">Мотель</label>
       </li>
-      <li>
-        <input type="radio">Апартаменты
+      <li><label>
+        <input type="radio">Апартаменты</label>
       </li>
+    </ul>
 
       <p>Стоимость, ₽:</p>
+      <ul>
       <li class="cost-search"><input type="text" value="0" placeholder="от"><input type="text" value="9000"
           placeholder="до"></li>
-      <li class="cost-searchline"><input type="range" min="0" max="100" step="1" value="50"> </li>
+          <div class="costlinesearch">
+            <input type="range" min="1" max="100" value="50" class="slider" id="costline">
+          </div>
       <li><button class="cost-button">Применить</button></li>
-      <a class="abort" href="#">Сбросить</a>
+      <li><input type="reset"></input></li>
+    </ul>
     </section>
 
     <section class="catalog-main-filter">
@@ -83,16 +87,16 @@
         <option value="2">Сначала дорогие</option>
         <option value="3">По популярности</option>
       </select>
-      <li class="hotel-filter"><img src="#"><img src="#"><img src="#"></li>
+      <div class="hotel-filter"><img src="#"><img src="#"><img src="#"></div>
     </section>
 
     <section class="catalog-main">
       <ul class="catalog-list">
         <li class="catalog-item">
           <img src="#"></img>
-          <p class="hotel-title">
+          <div class="hotel-title">
           <h3>Amara Resort & Spa</h3>
-          </p>
+          </div>
           <p class="hotel-type">Гостиница</p>
           <p class="hotel-price">От 4000 ₽</p>
           <button class="hotel-more">Подробнее</button>
@@ -114,9 +118,9 @@
       <ul class="catalog-list">
         <li class="catalog-item">
           <img src="#"></img>
-          <p class="hotel-title">
+          <div class="hotel-title">
           <h3>Villas at Poco Diablo</h3>
-          </p>
+          </div>
           <p class="hotel-type">Гостиница</p>
           <p class="hotel-price">От 5000 ₽</p>
           <button class="hotel-more">Подробнее</button>
@@ -138,9 +142,9 @@
       <ul class="catalog-list">
         <li class="catalog-item">
           <img src="#"></img>
-          <p class="hotel-title">
+          <div class="hotel-title">
           <h3>Desert Quail Inn</h3>
-          </p>
+          </div>
           <p class="hotel-type">Гостиница</p>
           <p class="hotel-price">От 2500 ₽</p>
           <button class="hotel-more">Подробнее</button>
@@ -160,11 +164,11 @@
       <ul class="catalog-list">
         <li class="catalog-item">
           <img src="#"></img>
-          <p class="hotel-title">
+          <div class="hotel-title">
           <h3>GreenTree Inn</h3>
-          </p>
+          </div>
           <p class="hotel-type">Гостиница</p>
-          <p class="hotel-price">От 2500 ₽</p>
+          <p class="hotel-price">От 1500 ₽</p>
           <button class="hotel-more">Подробнее</button>
           <button class="to-favy">В избранное</button>
           <form>
@@ -177,20 +181,20 @@
         </li>
       </ul>
 
-      <div class="button-src">
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>...</button>
-        <button>10</button>
+      <div class="search-link">
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">...</a>
+        <a href="#">10</a>
       </div>
       <ul>
-        <h6>Гостиниц на странице</h6>
+        <span>Гостиниц на странице</span>
         <select class="hotel-select">
-          <option value="4">Сначала дешевые</option>
-          <option value="6">Сначала дорогие</option>
-          <option value="8">По популярности</option>
+          <option value="4">4</option>
+          <option value="6">6</option>
+          <option value="8">8</option>
         </select>
       </ul>
     </section>
@@ -198,7 +202,7 @@
     <section class="subscribe">
       <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
       <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
-      <form class="subscribe-form" action="echo.htmlacademy.ru" method="post"><input class="field"
+      <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post"><input class="field"
           placeholder="Ваш e-mail" type="email" name="description-email" id="subscribe-form" required><button
           class="subscribe-button">подписаться!</button> </form>
     </section>
