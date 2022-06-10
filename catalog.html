@@ -44,20 +44,20 @@
       <img src="#"><img>
         <p>Гостиницы</p>
       <p>Инфраструктура</p>
-      <ul>
+      <ul><label>
       <li class="type-box">
-        <input type="checkbox" checked>Бассейн
+        <input type="checkbox" checked>Бассейн</label>
       </li>
-      <li>
-        <input type="checkbox" checked>Парковка
+      <li><label>
+        <input type="checkbox" checked>Парковка</label>
       </li>
-      <li>
-        <input type="checkbox">WI-FI
+      <li><label>
+        <input type="checkbox">WI-FI</label>
       </li>
 </ul>
       <p>Тип жилья</p>
-      <ul><label>
-      <li class="type-box">
+      <ul>
+      <li class="type-box"><label>
         <input type="radio" checked>Гостиница</label>
       </li>
       <li><label>
@@ -69,19 +69,19 @@
     </ul>
 
       <p>Стоимость, ₽:</p>
-      <ul>
-      <li class="cost-search"><input type="text" value="0" placeholder="от"><input type="text" value="9000"
-          placeholder="до"></li>
+      <form>
+      <div class="cost-search"><input type="text" value="0" placeholder="от"><input type="text" value="9000"
+          placeholder="до"></div>
           <div class="costlinesearch">
             <input type="range" min="1" max="100" value="50" class="slider" id="costline">
           </div>
-      <li><button class="cost-button">Применить</button></li>
-      <li><input type="reset"></input></li>
-    </ul>
+      <button class="cost-button">Применить</button>
+      <input type="reset"></input></form>
+    
     </section>
 
     <section class="catalog-main-filter">
-      <h1>Найдено гостиниц</h1>
+      <h3>Найдено гостиниц</h3>
       <select class="hotel-select">
         <option value="1">Сначала дешевые</option>
         <option value="2">Сначала дорогие</option>
