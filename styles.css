@@ -5,3 +5,11 @@
     
     
 }
+
+.main-background {
+    background-image: url(/images/index-background.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+
