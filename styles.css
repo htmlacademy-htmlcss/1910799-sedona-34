@@ -1,5 +1,7 @@
 .catalog-header {
     background-image: url(/images/index-background.jpg) ;
-    width: 1200;
-    height: 65;
+    background-position: center;
+    background-size: cover;
+    
+    
 }
