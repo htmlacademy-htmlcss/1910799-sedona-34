@@ -42,10 +42,9 @@
     <section class="catalog-header">
       <h1>Гостиницы Седоны</h1>
       <img src="#"><img>
-        <p>Гостиницы</p>
-      <p>Инфраструктура</p>
-      <ul><label>
-      <li class="type-box">
+        <ul><li>Гостиницы</li>
+      <li>Инфраструктура</li>
+      <li class="type-box"><label>
         <input type="checkbox" checked>Бассейн</label>
       </li>
       <li><label>
@@ -55,16 +54,16 @@
         <input type="checkbox">WI-FI</label>
       </li>
 </ul>
-      <p>Тип жилья</p>
-      <ul>
+      <ul><li>Тип жилья</li>
+      
       <li class="type-box"><label>
-        <input type="radio" checked>Гостиница</label>
+        <input type="radio" name="hoteltype" checked>Гостиница</label>
       </li>
       <li><label>
-        <input type="radio">Мотель</label>
+        <input type="radio" name="hoteltype">Мотель</label>
       </li>
       <li><label>
-        <input type="radio">Апартаменты</label>
+        <input type="radio"  name="hoteltype">Апартаменты</label>
       </li>
     </ul>
 
@@ -93,7 +92,7 @@
     <section class="catalog-main">
       <ul class="catalog-list">
         <li class="catalog-item">
-          <img src="#"></img>
+          <img src="images\Amara Resort & Spa.jpg"></img>
           <div class="hotel-title">
           <h3>Amara Resort & Spa</h3>
           </div>
@@ -101,47 +100,35 @@
           <p class="hotel-price">От 4000 ₽</p>
           <button class="hotel-more">Подробнее</button>
           <button class="to-fav">В избранное</button>
-          <form>
-            <input id="star" type="radio" name="rate">
-            <label for="one"></label>
-            <input id="star" type="radio" name="rate">
-            <label for="two"></label>
-            <input id="star" type="radio" name="rate">
-            <label for="three"></label>
-            <input id="star" type="radio" name="rate">
-            <label for="four"></label>
-          </form>
-          <button class="to-fav">Рейтинг 8,5</button>
+          <img class="starrating" src="images\star.png">
+          <img class="starrating" src="images\star.png">
+          <img class="starrating" src="images\star.png">
+          <img class="starrating" src="images\star.png">
+          <span class="to-fav">Рейтинг 8,5</span>
         </li>
       </ul>
 
       <ul class="catalog-list">
         <li class="catalog-item">
-          <img src="#"></img>
+          <img src="images\Villas at Poco Diablo.jpg"></img>
           <div class="hotel-title">
           <h3>Villas at Poco Diablo</h3>
           </div>
           <p class="hotel-type">Гостиница</p>
           <p class="hotel-price">От 5000 ₽</p>
           <button class="hotel-more">Подробнее</button>
-          <button class="to-fav-ready">В избранное</button>
-          <form>
-            <input id="star" type="radio" name="rate">
-            <label for="one"></label>
-            <input id="star" type="radio" name="rate">
-            <label for="two"></label>
-            <input id="star" type="radio" name="rate">
-            <label for="three"></label>
-            <input id="star" type="radio" name="rate">
-            <label for="four"></label>
-          </form>
-          <button class="rating">Рейтинг 9,2</button>
+          <button class="to-fav-ready">В избранном</button>
+          <img class="starrating" src="images\star.png">
+          <img class="starrating" src="images\star.png">
+          <img class="starrating" src="images\star.png">
+          <img class="starrating" src="images\star.png">
+          <span class="rating">Рейтинг 9,2</span>
         </li>
       </ul>
 
       <ul class="catalog-list">
         <li class="catalog-item">
-          <img src="#"></img>
+          <img src="images\Desert Quail Inn.jpg"></img>
           <div class="hotel-title">
           <h3>Desert Quail Inn</h3>
           </div>
@@ -149,21 +136,16 @@
           <p class="hotel-price">От 2500 ₽</p>
           <button class="hotel-more">Подробнее</button>
           <button class="to-fav-ready">В избранное</button>
-          <form>
-            <input id="star" type="radio" name="rate">
-            <label for="one"></label>
-            <input id="star" type="radio" name="rate">
-            <label for="two"></label>
-            <input id="star" type="radio" name="rate">
-            <label for="three"></label>
-          </form>
-          <button class="rating">Рейтинг 6,9</button>
+          <img class="starrating" src="images\star.png">
+          <img class="starrating" src="images\star.png">
+          <img class="starrating" src="images\star.png">
+          <span class="rating">Рейтинг 6,9</span>
         </li>
       </ul>
 
       <ul class="catalog-list">
         <li class="catalog-item">
-          <img src="#"></img>
+          <img src="images\GreenTree Inn.jpg"></img>
           <div class="hotel-title">
           <h3>GreenTree Inn</h3>
           </div>
@@ -172,12 +154,10 @@
           <button class="hotel-more">Подробнее</button>
           <button class="to-favy">В избранное</button>
           <form>
-            <input id="star" type="radio" name="rate">
-            <label for="one"></label>
-            <input id="star" type="radio" name="rate">
-            <label for="two"></label>
+            <img class="starrating" src="images\star.png">
+            <img class="starrating" src="images\star.png">
           </form>
-          <button class="rating">Рейтинг 5.0</button>
+          <span class="rating">Рейтинг 5.0</span>
         </li>
       </ul>
 
