@@ -1,0 +1,58 @@
+
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("/fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+body {
+    font-family: "PT Sans";
+    background-color: #FFFFFF;
+    color: 
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+.catalog-header {
+    background-image: url("/images/index-background.jpg") ;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+.main-background {
+    background-image: url("/images/index-background.jpg") ;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.logo-menu {
+    padding-left: 70px;
+    
+    
+}
+
+.navigation {
+    padding-left: 256px;
+   
+}
+
