@@ -42,48 +42,54 @@
   <main class="catalog-index">
     <section class="catalog-header">
       <h1>Гостиницы Седоны</h1>
-      <form>
+
       <ul>
         <li>Гостиницы</li>
         <li>Инфраструктура</li>
-         
-        <li class="type-box"><label>
-            <input type="checkbox" checked>Бассейн</label>
-        </li>
-        <li><label>
-            <input type="checkbox" checked>Парковка</label>
-        </li>
-        <li><label>
-            <input type="checkbox">WI-FI</label>
-        </li>
       </ul>
-      <ul>
-        <li>Тип жилья</li>
+      <form>
+        <ul>
+          <li class="type-box"><label>
+              <input type="checkbox" checked>Бассейн</label>
+          </li>
+          <li><label>
+              <input type="checkbox" checked>Парковка</label>
+          </li>
+          <li><label>
+              <input type="checkbox">WI-FI</label>
+          </li>
+        </ul>
+        <ul>
+          <li>Тип жилья</li>
 
-        <li class="type-box"><label>
-            <input type="radio" name="hoteltype" checked>Гостиница</label>
-        </li>
-        <li><label>
-            <input type="radio" name="hoteltype">Мотель</label>
-        </li>
-        <li><label>
-            <input type="radio" name="hoteltype">Апартаменты</label>
-        </li>
-      </ul>
-     
+          <li class="type-box"><label>
+              <input type="radio" name="hoteltype" checked>Гостиница</label>
+          </li>
+          <li><label>
+              <input type="radio" name="hoteltype">Мотель</label>
+          </li>
+          <li><label>
+              <input type="radio" name="hoteltype">Апартаменты</label>
+          </li>
+        </ul>
+
         <p>Стоимость, ₽:</p>
 
-        <div class="cost-search"><input type="text" value="0" placeholder="от"><input type="text" value="9000"
-            placeholder="до"></div>
-            <div class="costline">
-							<div class="costscale">
-								<div class="bar"></div>
-							</div>
-							<div class="range-toggle range-toggle-min"></div>
-							<div class="range-toggle range-toggle-max"></div>
-						</div>
-       
-       
+        <div class="cost-search">
+          <div class="costmin"><input type="text" placeholder="0">от</div>
+          <div class="costmax"><input type="text" placeholder="9000">до</div>
+          <div class="costline">
+            <div class="costscale">
+              <div class="bar"></div>
+            </div>
+            <div class="range-toggle range-toggle-min"></div>
+            <div class="range-toggle range-toggle-max"></div>
+            <button class="costbutton">Применить</button>
+            <input type="reset"></input>
+          </div>
+        </div>
+
+
       </form>
 
     </section>
@@ -96,70 +102,71 @@
         <option value="2">Сначала дорогие</option>
         <option value="3">По популярности</option>
       </select>
-      <div class="hotel-filter"><img src="images\cards-view.svg"><img src="images\one-card-view.svg"><img src="images\list-view.svg"></div>
+      <div class="hotel-filter"><img src="images\cards-view.svg"><img src="images\one-card-view.svg"><img
+          src="images\list-view.svg"></div>
     </section>
 
     <section class="catalog-main">
-<div class="catalog-item">
-  <img src="images\Amara Resort & Spa.jpg" alt="Amara Resort & Spa"></img>
-  <h3>Amara Resort & Spa</h3>
-  <ul>
-    <li class="hotel-type">Гостиница</li>
-        <li class="hotel-price">От 4000 ₽</li>
-  </ul>
-  <button class="hotel-more">Подробнее</button>
+      <div class="catalog-item">
+        <img src="images\Amara Resort & Spa.jpg" alt="Amara Resort & Spa"></img>
+        <h3>Amara Resort & Spa</h3>
+        <ul>
+          <li class="hotel-type">Гостиница</li>
+          <li class="hotel-price">От 4000 ₽</li>
+        </ul>
+        <button class="hotel-more">Подробнее</button>
         <button class="to-fav">В избранное</button>
         <img class="starrating" src="images\star.svg">
         <img class="starrating" src="images\star.svg">
         <img class="starrating" src="images\star.svg">
         <img class="starrating" src="images\star.svg">
         <span class="to-fav">Рейтинг 8,5</span>
-</div>
+      </div>
 
-<div class="catalog-item">
-  <img src="images\Villas at Poco Diablo.jpg" alt="Villas at Poco Diablo"></img>
-  <h3>Villas at Poco Diablo</h3>
-  <ul>
-    <li class="hotel-type">Гостиница</li>
-        <li class="hotel-price">От 5000 ₽</li>
-  </ul>
-  <button class="hotel-more">Подробнее</button>
+      <div class="catalog-item">
+        <img src="images\Villas at Poco Diablo.jpg" alt="Villas at Poco Diablo"></img>
+        <h3>Villas at Poco Diablo</h3>
+        <ul>
+          <li class="hotel-type">Гостиница</li>
+          <li class="hotel-price">От 5000 ₽</li>
+        </ul>
+        <button class="hotel-more">Подробнее</button>
         <button class="to-fav">В избранном</button>
         <img class="starrating" src="images\star.svg">
         <img class="starrating" src="images\star.svg">
         <img class="starrating" src="images\star.svg">
         <img class="starrating" src="images\star.svg">
         <span class="to-fav">Рейтинг 9,2</span>
-</div>
+      </div>
 
-<div class="catalog-item">
-  <img src="images\Desert Quail Inn.jpg" alt="Desert Quail Inn<"></img>
-  <h3>Desert Quail Inn</h3>
-  <ul>
-    <li class="hotel-type">Гостиница</li>
-        <li class="hotel-price">От 2500 ₽</li>
-  </ul>
-  <button class="hotel-more">Подробнее</button>
+      <div class="catalog-item">
+        <img src="images\Desert Quail Inn.jpg" alt="Desert Quail Inn<"></img>
+        <h3>Desert Quail Inn</h3>
+        <ul>
+          <li class="hotel-type">Гостиница</li>
+          <li class="hotel-price">От 2500 ₽</li>
+        </ul>
+        <button class="hotel-more">Подробнее</button>
         <button class="to-fav">В избранное</button>
         <img class="starrating" src="images\star.svg">
         <img class="starrating" src="images\star.svg">
         <img class="starrating" src="images\star.svg">
         <span class="to-fav">Рейтинг 6,9</span>
-</div>
+      </div>
 
-<div class="catalog-item">
-  <img src="images\GreenTree Inn.jpg" alt="GreenTree Inn"></img>
-  <h3>GreenTree Inn</h3>
-  <ul>
-    <li class="hotel-type">Гостиница</li>
-        <li class="hotel-price">От 1500 ₽</li>
-  </ul>
-  <button class="hotel-more">Подробнее</button>
+      <div class="catalog-item">
+        <img src="images\GreenTree Inn.jpg" alt="GreenTree Inn"></img>
+        <h3>GreenTree Inn</h3>
+        <ul>
+          <li class="hotel-type">Гостиница</li>
+          <li class="hotel-price">От 1500 ₽</li>
+        </ul>
+        <button class="hotel-more">Подробнее</button>
         <button class="to-fav">В избранное</button>
         <img class="starrating" src="images\star.svg">
         <img class="starrating" src="images\star.svg">
         <span class="to-fav">Рейтинг 5,0</span>
-</div>
+      </div>
 
 
       <div class="search-link">
