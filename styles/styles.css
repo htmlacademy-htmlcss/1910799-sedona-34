@@ -19,16 +19,38 @@
 body {
     font-family: "PT Sans";
     background-color: #FFFFFF;
-    color: 
+    color: #000000;
+    
 }
 
+ul{
+    list-style-type: none;
+    
+}
+
+li, hotel-type {
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+}
 h1 {
     font-size: 30px;
 }
-
 h2 {
-    font-size: 22px;
+    font-size: 24px;
 }
+
+h3 {
+    font-family: 'PT Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+}
+
+
 
 .catalog-header {
     background-image: url("/images/index-background.jpg") ;
@@ -50,9 +72,3 @@ h2 {
     
     
 }
-
-.navigation {
-    padding-left: 256px;
-   
-}
-
