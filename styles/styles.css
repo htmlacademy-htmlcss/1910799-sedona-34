@@ -34,7 +34,6 @@ li {
 }
 
 
-
 h1 {
     font-family: 'PT Sans';
     font-style: normal;
@@ -50,7 +49,10 @@ h2 {
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
+
 }
+
+
 
 
 .page-header {
@@ -155,6 +157,11 @@ h2 {
     color: #FFFFFF
 }
 
+.subscribe {
+   
+  
+}
+
 .subscribe-title {
     font-family: 'PT Sans';
     font-style: normal;
@@ -166,13 +173,18 @@ h2 {
 
 }
 
+.subscribe-title-catalog {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 
-.subscribe {
-    background-image: url(/images/subscribebg.jpg);
-    background-repeat: no-repeat;
-    width: 1200px;
-    height: 411px;
 }
+
+
 
 .subscribe-description {
     font-family: 'PT Sans';
@@ -244,12 +256,3 @@ h2 {
 }
 
 
-.catalog-header h1 {
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 60px;
-    line-height: 78px;
-    color: #FFFFFF;
-    background-image: url(/images/subscribebg.jpg);
-}
